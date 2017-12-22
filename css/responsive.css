@@ -183,6 +183,7 @@
     margin-bottom: 30px;
     text-align: center;
     margin-left: 0px !important;
+   padding-left: 0;
 }
 
 .mobilemenu li a {
@@ -224,7 +225,7 @@
     font-size: 35px;
 }
 .about-text {
-    padding: 30px 30px 0px 30px;
+    padding: 0px 30px 0px 30px;
 }
 .adr-blk {
     margin-left: 0px;
@@ -324,7 +325,7 @@ font-size: 16px;
     margin: 15px 0px;
 }
 .logo {
-    width: 50%;
+     width: 40%;
 }
 .logo a {
     font-size: 25px !important;
@@ -347,7 +348,10 @@ font-size: 16px;
     margin-top: 0px;
 }
 #wowslider-container1 .ws_images {
-          height: 30vh !important;
+          height: 40vh !important;
+}
+#wowslider-container1 img{
+    height: 100% !important;
 }
 #wowslider-container1 .ws_bullets {
        bottom: 2px;
@@ -367,9 +371,18 @@ font-size: 16px;
 .shadow-text {
     font-size:25px;
 }
+.about-text h2 {
+    margin: 20px 0px 10px;
+}
+#wowslider-container1 .ws-title {
+    width: 50% !important;
+}
 }
 /*Media max-width-375*/
 @media screen and (max-width:375px) {
+	.logo {
+    width: 60%;
+}
 .about-content {
     margin-top: 60px;
 }
@@ -377,10 +390,13 @@ font-size: 16px;
        font-size: 20px;
 }
 .brand-list {
-    margin: 40px 0px 0px;
+     margin: 0px 0px 0px;
 }
 .page-title {
-    margin: 0px auto 25px;
+margin: 0px auto 0px;
+}
+.page-title h3 {
+    padding-bottom: 5px;
 }
 #wowslider-container1 .ws-title {
     padding: 0px !important;
@@ -406,7 +422,10 @@ font-size: 16px;
 	font-size:13px !important;
 	line-height:15px !important;
 }
-
+.about-img img {
+    max-height: 300px;
+    width: 100%;
+}
 }
 @media screen and (max-width:767px) and (orientation: landscape) { 
 #wowslider-container1 .ws_images {
