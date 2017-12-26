@@ -1,0 +1,446 @@
+/* ------------------------------------------------------------------------------
+    Project Name : VSupportU
+	Description  : Responsive Style Sheet
+	Author       : Abul Azad.S
+	Created On   : 12-10-2017
+	--------------------------------------------------------------------------------*/
+	
+	
+	
+/*Media max-width-1500*/
+@media screen and (max-width:1500px) {
+#wowslider-container1 .ws-title {
+      top: 25% !important;
+	  left: 1%;
+}
+#wowslider-container1 .ws-title h3,#wowslider-container1 .ws-title span  {
+	font-size:50px !important;
+	line-height:70px !important;
+}
+
+.cntact-left .shadow-text {
+    top: 6px;
+    left: 15%;
+    font-size: 80px;
+}
+}
+/*Media max-width-1366*/
+@media screen and (max-width:1366px) {
+
+.cntact-left .shadow-text {
+    left: 6%;
+    font-size: 75px;
+}
+.adr-blk {
+    margin-left: 170px;
+}
+.about-text {
+    width: 60%;
+}
+.service-list {
+ width: 30.4%;
+ padding: 47px;
+}
+}
+/*Media max-width-1280*/
+@media screen and (max-width:1280px) {
+	#wowslider-container1 .ws-title h3,#wowslider-container1 .ws-title span  {
+	font-size:40px !important;
+	line-height:60px !important;
+}
+#wowslider-container1 .ws_bullets {
+    bottom: 30px;
+}
+.shadow-text {
+    font-size: 60px;
+    right: -2px;
+    bottom: -5px;
+}
+.cntact-left .shadow-text {
+    font-size: 57px;
+    top: 35px;
+}
+}
+/*Media max-width-1199*/
+@media screen and (max-width:1199px) {
+	#wowslider-container1 .ws-title h3,#wowslider-container1 .ws-title span  {
+	font-size:37px !important;
+	line-height:55px !important;
+}
+ .about-text {
+    width: 55%;
+	padding: 0px 30px 0px 65px;
+}
+.client-sec {
+    width:90%;
+}
+.shadow-text {
+    font-size: 50px;
+    right: 2px;
+    bottom: 1px;
+}
+.service-list {
+    margin-right: 30px;
+    margin-bottom: 30px;
+	width: 30%;
+}
+.adr-blk {
+    margin-left: 100px;
+    padding-left:30px;
+}
+#contact {
+    padding: 100px 0px 0px;
+}
+.cntact-left .shadow-text {
+    font-size: 50px;
+}
+.phone-img {
+    right: -30%;
+}
+.phone-img img {
+    width: 75%;
+    border: 3px solid #d9dadf;
+}
+.service-list:hover .hover-text p {
+    font-size: 18px;
+}
+.brand-companies .owl-nav .owl-next {
+    right: -4%;
+}
+}
+
+/*Media max-width-991*/
+@media screen and (max-width:991px) {
+#wowslider-container1 .ws-title {
+	padding:5px !important;
+	top: 20% !important;
+}
+#wowslider-container1 .ws-title h3,#wowslider-container1 .ws-title span  {
+	font-size:30px !important;
+	line-height:45px !important;
+}
+.menu-top {
+    margin-top: 5px;
+}
+.phone-img img {
+    width: 60%;
+}
+.adr-blk {
+    margin-left: 50px;
+    padding-left: 30px;
+}
+.service-list {
+    padding: 20px;
+    width: 45.8%;
+}
+.hover-text {
+   padding: 20px;
+}
+.about-text,.client-sec  {
+    width: 100%;
+	margin-top: 20px;
+}
+.cntact-left .shadow-text {
+    top: -50px;
+}
+
+}
+
+/*Media max-width-768*/
+@media screen and (max-width:768px) {
+ #wowslider-container1 .ws_images {
+    height: 50vh !important;
+}
+#wowslider-container1 img {
+    height: 100% !important;
+}
+.adr-blk {
+    margin-left: 14px;
+    padding-left: 20px;
+}
+}
+/*Media max-width-767*/
+@media screen and (max-width:767px) {
+
+.btn-open .mobilemenu {
+    display: none !important;
+}
+.mobilemenu {
+    display: block !important;
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    -webkit-transition: all 0.9s ease;
+    -moz-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+    margin-top: 0px !important;
+    padding-top: 60px;
+	 background: rgba(245, 30, 106, 0.91);
+    background: -moz-linear-gradient(top,rgba(245, 30, 106, 0.98) 0%,#f44336d1 100%);
+    background: -webkit-gradient(left top,left bottom,color-stop(0%,rgba(0,132,255,0.75)),color-stop(100%,rgba(163,96,255,0.75)));
+    background: -webkit-linear-gradient(top,rgba(245, 30, 106, 0.98) 0%,#f44336d1 100%);
+    background: -o-linear-gradient(top,rgba(245, 30, 106, 0.98) 0%,#f44336d1 100%);
+    background: -ms-linear-gradient(top,rgba(245, 30, 106, 0.98) 0%,#f44336d1 100%);
+    background: linear-gradient(to bottom,rgba(245, 30, 106, 0.98) 0%,#f44336d1 100%);
+
+}
+.mobilemenu li {
+    float: none !important;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 0px !important;
+   padding-left: 0;
+}
+
+.mobilemenu li a {
+    color: #fff !important;
+}
+.mobilemenu li a:hover,.mobilemenu li .active {
+    color: #000 !important;
+}
+.social-icons-home,.call-us,.audio-control,.menu_items{
+    display: none;
+}
+
+.call-us.responsive-no{
+     display: block !important;
+     margin: 5px 0px 0px;
+    font-size: 14px;
+}
+
+.logo {
+    width: 70%;
+}
+.logo a {
+    margin-top: 0px;
+    font-size: 40px;
+}
+#burgernav  {
+        display: block;
+     } 
+.phone-img {
+     right: 10px;
+}
+.phone-img img {
+     float:right;
+}
+.cntact-left,.cntact-right {
+    width: 100%;
+}
+.about-text h2 span, .client-right h2 span {
+    font-size: 35px;
+}
+.about-text {
+    padding: 0px 30px 0px 30px;
+}
+.adr-blk {
+    margin-left: 0px;
+    padding-left: 35px;
+    border-left: 0;
+}
+.cntact-left .shadow-text {
+    left: 4%;
+    top: 35px;
+}
+.about-content {
+      margin-top: 90px;
+}
+.brand-list {
+    margin: 40px 30px 0px;
+}
+#contact {
+    padding: 130px 0px 0px;
+}
+.grid-img {
+    width: 29%;
+}
+#services .sub-text {
+    width: 100%;
+    padding: 0px 0px 30px;
+}
+#wowslider-container1 .ws_images {
+    height:60vh !important;
+}
+#wowslider-container1 .ws-title{
+	padding: 20px !important;
+	margin-left:0 !important;
+}
+#wowslider-container1 .ws-title p {
+	display:none !important;
+}
+#wowslider-container1 .ws-title h3,#wowslider-container1 .ws-title span  {
+	font-size:25px !important;
+	line-height:35px !important;
+}
+#wowslider-container1 .ws_bullets {
+    bottom: 120px;
+    right: 0px;
+}
+.header-fixed {
+      padding: 10px 0px;
+}
+.address-sec {
+    margin-bottom: 20px;
+}
+.service-list:hover .hover-text{
+	padding:10px;
+}
+.service-list {
+     width: 47%;
+}
+.service-list:nth-child(2),.service-list:nth-child(4),.service-list:nth-child(6) {
+    margin-right: 0;
+}
+.service-list h3 {
+font-size: 16px;
+}
+#client {
+    padding: 55px 0px;
+}
+.shadow-text {
+    font-size: 35px;
+}
+}
+
+/*Media max-width-568*/
+@media screen and (max-width:568px) {
+
+.service-list {
+    width: 100%;
+    min-height: initial;
+}
+.client-sec {
+    width: 95%;
+}
+.client-sec .sub-text {
+    line-height: 30px;
+    font-size: 20px;
+}
+#map {
+    margin-top: 0px;
+    height: 300px;
+}
+.grid-img {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.client-right p{
+	width:100%;
+}
+.client-image {
+    margin: 15px 0px;
+}
+.logo {
+     width: 40%;
+}
+.logo a {
+    font-size: 25px !important;
+}
+
+#wowslider-container1 .ws-title h3,#wowslider-container1 .ws-title span {
+	font-size:25px !important;
+	line-height:30px !important;
+}
+.cntact-left .shadow-text {
+    top: -75px;
+}
+.phone-img {
+    top: -25px;
+}
+.phone-img img {
+    width: 45%;
+}
+.cntact-right {
+    margin-top: 0px;
+}
+#wowslider-container1 .ws_images {
+          height: 40vh !important;
+}
+#wowslider-container1 img{
+    height: 100% !important;
+}
+#wowslider-container1 .ws_bullets {
+       bottom: 2px;
+}
+#services .sub-text {
+    font-size: 20px;
+}
+.brand-companies .owl-nav .owl-prev {
+    left: 5%;
+}
+.brand-companies .owl-nav .owl-next {
+    right: -2%;
+}
+.section {
+    padding: 45px 0px;
+}
+.shadow-text {
+    font-size:25px;
+}
+.about-text h2 {
+    margin: 20px 0px 10px;
+}
+#wowslider-container1 .ws-title {
+    width: 50% !important;
+}
+}
+/*Media max-width-375*/
+@media screen and (max-width:375px) {
+	.logo {
+    width: 60%;
+}
+.about-content {
+    margin-top: 60px;
+}
+.shadow-text {
+       font-size: 20px;
+}
+.brand-list {
+     margin: 0px 0px 0px;
+}
+.page-title {
+margin: 0px auto 0px;
+}
+.page-title h3 {
+    padding-bottom: 5px;
+}
+#wowslider-container1 .ws-title {
+    padding: 0px !important;
+}
+#wowslider-container1 .ws-title h3,#wowslider-container1 .ws-title span {
+	font-size:20px !important;
+	line-height:25px !important;
+}
+#wowslider-container1 .ws-title {
+      top: 30% !important;
+}
+#burgernav {
+       top: 59%;
+}
+.logo img {
+        width: 80%;
+}
+.cntact-left .shadow-text {
+    top: -35px;
+    font-size: 25px;
+}
+#wowslider-container1 .ws-title h3,#wowslider-container1 .ws-title span {
+	font-size:13px !important;
+	line-height:15px !important;
+}
+.about-img img {
+    max-height: 300px;
+    width: 100%;
+}
+}
+@media screen and (max-width:767px) and (orientation: landscape) { 
+#wowslider-container1 .ws_images {
+    height:80vh !important;
+}
+
+}
