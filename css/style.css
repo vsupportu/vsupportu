@@ -750,6 +750,7 @@ div {
 }
 .address-sec p a {
     color: #656060;
+	word-wrap: break-word;
 }
 .address-sec p strong {
     font-weight: 500;

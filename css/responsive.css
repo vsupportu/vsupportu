@@ -143,11 +143,21 @@
 .cntact-left .shadow-text {
     top: -50px;
 }
+
 }
 
 /*Media max-width-768*/
 @media screen and (max-width:768px) {
- 
+ #wowslider-container1 .ws_images {
+    height: 50vh !important;
+}
+#wowslider-container1 img {
+    height: 100% !important;
+}
+.adr-blk {
+    margin-left: 14px;
+    padding-left: 20px;
+}
 }
 /*Media max-width-767*/
 @media screen and (max-width:767px) {
@@ -315,8 +325,9 @@ font-size: 16px;
     height: 300px;
 }
 .grid-img {
-      width: 100%;
+    width: 100%;
     margin-bottom: 15px;
+    padding: 15px;
 }
 .client-right p{
 	width:100%;
@@ -412,7 +423,7 @@ margin: 0px auto 0px;
        top: 59%;
 }
 .logo img {
-       width: 70%;
+        width: 80%;
 }
 .cntact-left .shadow-text {
     top: -35px;
