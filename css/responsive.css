@@ -143,21 +143,11 @@
 .cntact-left .shadow-text {
     top: -50px;
 }
-
 }
 
 /*Media max-width-768*/
 @media screen and (max-width:768px) {
- #wowslider-container1 .ws_images {
-    height: 50vh !important;
-}
-#wowslider-container1 img {
-    height: 100% !important;
-}
-.adr-blk {
-    margin-left: 14px;
-    padding-left: 20px;
-}
+ 
 }
 /*Media max-width-767*/
 @media screen and (max-width:767px) {
@@ -255,9 +245,7 @@
 #contact {
     padding: 130px 0px 0px;
 }
-.grid-img {
-    width: 29%;
-}
+
 #services .sub-text {
     width: 100%;
     padding: 0px 0px 30px;
@@ -324,11 +312,7 @@ font-size: 16px;
     margin-top: 0px;
     height: 300px;
 }
-.grid-img {
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 15px;
-}
+
 .client-right p{
 	width:100%;
 }
@@ -371,10 +355,10 @@ font-size: 16px;
     font-size: 20px;
 }
 .brand-companies .owl-nav .owl-prev {
-    left: 5%;
+  left: 5% !important;
 }
 .brand-companies .owl-nav .owl-next {
-    right: -2%;
+    right: -2% !important;
 }
 .section {
     padding: 45px 0px;
@@ -387,6 +371,12 @@ font-size: 16px;
 }
 #wowslider-container1 .ws-title {
     width: 50% !important;
+}
+.about-content p {
+    text-align: justify;
+}
+.grid-img {
+	margin-right:0px;
 }
 }
 /*Media max-width-375*/
@@ -423,7 +413,7 @@ margin: 0px auto 0px;
        top: 59%;
 }
 .logo img {
-        width: 80%;
+       width: 70%;
 }
 .cntact-left .shadow-text {
     top: -35px;

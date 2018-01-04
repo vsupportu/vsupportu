@@ -44,6 +44,7 @@
 
 
 
+// Brand Companies
 
        $('.brand-companies').owlCarousel({
            autoplay: true,
@@ -64,7 +65,26 @@
                }
            }
        });
-
+// Clients caro
+       $('.client-caro').owlCarousel({
+           autoplay: true,
+           autoplayHoverPause:true,
+           center: true,
+           loop: true,
+          responsive: {
+               0: {
+                   items: 1
+               },
+             600: {
+                   items: 2
+               },
+               1000: {
+                   items: 3
+               }
+           }
+       });
+	   
+	   
        //Scrool script
        $(document).on("scroll", onScroll);
        // jQuery for page scrolling feature - requires jQuery Easing plugin

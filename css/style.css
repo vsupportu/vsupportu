@@ -469,8 +469,8 @@ div {
 .brand-companies {
     margin-top: 40px;
 }
-.owl-carousel .owl-nav .owl-next,
-.owl-carousel .owl-nav .owl-prev {
+.brand-companies.owl-carousel .owl-nav .owl-next,
+.brand-companies.owl-carousel .owl-nav .owl-prev {
     background: url(../images/icon/carousel-arrow.png) no-repeat left center;
     width: 40px;
     height: 40px;
@@ -480,13 +480,13 @@ div {
     position: absolute;
     display: block !important;
 }
-.brand-companies .owl-nav .owl-prev {
+.brand-companies.owl-carousel .owl-nav .owl-prev {
     left: 0%;
     background-position: 0px -2px;
     margin-left: -25px;
     top: 20px;
 }
-.brand-companies .owl-nav .owl-next {
+.brand-companies.owl-carousel .owl-nav .owl-next {
     right: -1%;
     background-position: -40px -11px;
     top: 20px;
@@ -672,26 +672,23 @@ div {
     margin: 90px 0px;
 }
 .grid-img {
-    width: 31%;
-    float: left;
     text-align: center;
-    margin-right: 15px;
     padding: 50px;
     border-radius: 9px;
-    -webkit-box-shadow: 4px 2px 17px -2px rgb(255, 252, 252);
-    -moz-box-shadow: 4px 2px 17px -2px rgb(255, 252, 252);
-    box-shadow: 4px 2px 17px -2px rgb(255, 252, 252);
-    -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     background-color: #fff;
+	margin-right: 5px;
 }
-.grid-img:hover {
+.client-caro.owl-carousel .owl-item img{
+	margin:0 auto;
+}
+/*.grid-img:hover {
     -webkit-box-shadow: 4px 2px 17px 2px rgb(255, 252, 252);
     -moz-box-shadow: 4px 2px 17px 2px rgb(255, 252, 252);
     box-shadow: 4px 2px 17px 2px rgb(255, 252, 252);
-}
+}*/
 /*Contact css*/
 
 #contact {
@@ -708,9 +705,10 @@ div {
 .cntact-left .shadow-text {
     top: 10px;
     left: 32%;
-    color: #f51e6a47;
+    color: #f51e6a;
     bottom: auto;
     font-size: 90px;
+    opacity: .3;
 }
 .phone-img {
     position: absolute;
@@ -750,7 +748,6 @@ div {
 }
 .address-sec p a {
     color: #656060;
-	word-wrap: break-word;
 }
 .address-sec p strong {
     font-weight: 500;
@@ -1006,6 +1003,27 @@ div {
     position: relative;
     z-index: 1;
 }
+/*.owl-dots {
+    width: 100%;
+    height: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+.owl-dots .owl-dot {
+    display: inline-block;
+    margin-right: 10px;
+    height: 10px;
+}
+.owl-dots .owl-dot span {
+    width: 5px;
+    height: 5px;
+    background: #ffffff;
+    display: inline-block;
+    border-radius: 50%;
+}
+.owl-dots .owl-dot.active span {
+    background: #393939;
+}*/
 /*Animate css*/
 
 .animated {
@@ -3798,7 +3816,7 @@ div {
 #wowslider-container1 .ws-title h3 {
     font-size:80px;
     line-height:85px;
-    text-align:left;
+    text-align:center;
      color:#313131;
 }
 #wowslider-container1 .ws-title span {
@@ -3809,7 +3827,7 @@ div {
 	color: #eb4946;
 }
 #wowslider-container1 .ws-title p {
-    text-align: center;
+    text-align: center !important;
     color:#c6c6c6;
     padding: 15px 0px;
     margin: 0px 0px;
