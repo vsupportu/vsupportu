@@ -1,5 +1,6 @@
    jQuery(document).ready(function($) {
-
+   
+// Menu Script
        if ($(window).width() <= 767) {
            $(".menu-top").click(function() {
                $(".res-menu ul").addClass("mobilemenu");
@@ -33,7 +34,22 @@
            images: 0
        });
 
-       var stickyTop = $('.home-container').offset().top;
+
+
+
+ // Header Fixed   
+ $(window).scroll(function () {
+  var height = $(window).scrollTop();
+  if (height >=300) {
+    $('.header').addClass('home-header');
+  }
+  else if (height == 0) {
+    $('.header').removeClass('home-header');
+  }
+});
+
+
+ var stickyTop = $('.home-container').offset().top;
        $(window).on('scroll', function() {
            if ($(window).scrollTop() >= stickyTop) {
                $('.header').addClass('header-fixed');
@@ -42,14 +58,13 @@
            }
        });
 
-
-
 // Brand Companies
 
        $('.brand-companies').owlCarousel({
            autoplay: true,
            autoplayTimeout: 5000,
            autoplayHoverPause: false,
+		   dots: false,
            center: true,
            loop: true,
 
@@ -70,6 +85,7 @@
            autoplay: true,
            autoplayHoverPause:true,
            center: true,
+		   dots: false,
            loop: true,
           responsive: {
                0: {

@@ -363,6 +363,9 @@ font-size: 16px;
 .section {
     padding: 45px 0px;
 }
+#services {
+    padding: 55px 0px;
+}
 .shadow-text {
     font-size:25px;
 }
@@ -377,6 +380,9 @@ font-size: 16px;
 }
 .grid-img {
 	margin-right:0px;
+}
+.client-caro.owl-carousel .owl-nav {
+    left: 40%;
 }
 }
 /*Media max-width-375*/
