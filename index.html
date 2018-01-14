@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>vsupportu</title>
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
   <!-- Stylesheets -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -17,11 +19,23 @@
 </head>
 
 <body>
+ <div class="modal">
+    <div class="body">
+        <div class="content">
+            <a href="index.html"> <img src="images/pongal.png" /class="first-logo img-responsive"> 
+        </div>
+    </div>
+</div>
+<style>
+    .modal {display:table;}
+    .body {display:table-cell; vertical-align:middle; text-align:center;}
+</style> 
+
   <!-- header section -->
   <div class="header clearfix">
     <div class="container">
       <div class="logo clearfix">
-        <a href="#home"> <img src="images/logo.png" / class="first-logo img-responsive">
+        <a href="index.html"> <img src="images/logo.png" / class="first-logo img-responsive">
         </a>
       </div>
    <nav id="menu">
@@ -29,7 +43,8 @@
         <div class="res-menu ">
             <a href="#menu" id="burgernav"><span></span></a>
             <ul class="menu_items">
-              <li><a class="active" href="#home">Home</a></li>
+              <li><a class="active" href="#home">Home</a>
+              </li>
               <li><a href="#about">About</a> </li>
               <li><a href="#services">Services</a> </li>
               <li><a href="#client">Client</a> </li>
@@ -107,7 +122,7 @@
       </div>
       <div class="brand-list">
         <div class="container">
-          <h3>We Deal With The Best Brands</h3>
+          <h3>We Deal with The Best brands</h3>
           <div class="brand-companies owl-carousel">
             <div class=""><img src="images/company/acer.jpg" /> </div>
             <div class=""><img src="images/company/amd.jpg" /> </div>
@@ -219,35 +234,25 @@
     <div class="section clearfix" id="client">
       <div class="container">
         <div class="page-title">
-          <h3>Clients</h3>
+          <h3>clients</h3>
         </div>
         <div class="client-sec">
           <p class="sub-text">Based on our best services and customer satisfaction policy, we have large clients in Trichy and Pudukottai districts. Thanks for supporting us to give our best. </p>
           <div class="client-image clearfix">
-		   <div class="client-caro owl-carousel">
-          <div class="grid-img">
-              <img src="images/client/roven.png" class="img-responsive" />
+            <div class="grid-img">
+              <img src="images/toolfab.png" class="img-responsive" />
             </div>
-			<div class="grid-img">
-              <img src="images/client/yaqeen.png" class="img-responsive" />
+            <div class="grid-img">
+              <img src="images/chavas.png" class="img-responsive" />
             </div>
-		<div class="grid-img">
-              <img src="images/client/chavas.png" class="img-responsive" />
+            <div class="grid-img">
+              <img src="images/client-3.png" class="img-responsive" />
             </div>
-		
-		<div class="grid-img">
-              <img src="images/client/client-3.png" class="img-responsive" />
-            </div>
-			   <div class="grid-img">
-              <img src="images/client/toolfab.png" class="img-responsive" />
-            </div>
-			
-		  
-		 </div>
+          </div>
         </div>
       </div>
     </div>
-    </div>
+
 
     <!-- contact Section -->
     <div class="section" id="contact">
@@ -263,21 +268,21 @@
           <div class="address-sec">
             <img src="images/icon/address-icon.png">
             <p><strong>V support U</strong>
-              <br> No-3 Chandran Complex,<br/>Wireless Road,
-              <br>Airport,
-              <br> Tiruchchirappalli.
+              <br> Plot No.5, <br/>Om Sakthi Gardern,
+              <br>Airport
+              <br> Tiruchchirappalli
             </p>
           </div>
           <div class="address-sec">
             <img src="images/icon/callus-icon.png">
             <p><strong>Phone Number:</strong>
-              <br/>+91 90035 75075</p>
+              <br/>90035 75075</p>
 
           </div>
           <div class="address-sec">
             <img src="images/icon/contact-mail.png">
             <p><strong>E-mail:</strong>
-              <br/><a href="mailto:Info@infomail.com" target="_blank">vinoth.m002@gmail.com</a>
+              <br/><a href="mailto:Info@infomail.com" target="_blank">Info@infomail.com</a>
             </p>
           </div>
           <div class="address-sec">
@@ -286,7 +291,7 @@
               <div class="social-icon clearfix">
                 <a href="https://www.facebook.com/VsupportU.Vinoth" target="_blank" class="facebook">facebook</a>
                 <a href="" class="twitter">twitter</a>
-                <a href="https://plus.google.com/114479425360289768952" target="_blank" class="gplus">Gplus</a>
+                <a href="" class="gplus">linkedin</a>
               </div>
             </p>
           </div>
@@ -301,10 +306,9 @@
     </div>
   </div>
   </div>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeWGJ5mJmTeYmLOhRu6TQ88p7nS5czlw4"></script>
- <script src="js/jquery.2.1.4.min.js"></script>
- <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+  <script type="text/javascript" src="js/jquery.2.1.4.min.js"></script>
+  <script src="js/bootstrap.js"></script>
   <script src="js/home.js"></script>
   <script src="js/maps.js"></script>
 </body>
