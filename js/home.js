@@ -6,6 +6,19 @@
                $(".res-menu ul").addClass("mobilemenu");
                $(this).toggleClass('btn-open').toggleClass('btn-close');
            });
+		   
+		   
+		    
+//jQuery(document).ready(function($){
+// orientationChange();
+//});
+//function orientationChange() {
+// if(window.addEventListener) {
+//  window.addEventListener("orientationchange", function() {
+//    location.reload();
+//});
+//}
+//}
        }
 
 // Slider Script
@@ -4836,3 +4849,8 @@
            $(wow).wowSlider(options);
        };
    })(jQuery);
+   
+   
+   
+   
+  
