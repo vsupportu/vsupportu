@@ -225,6 +225,7 @@ div {
 
 .section {
     padding: 45px 0px;
+    scroll-margin-top: 80px;
 }
 
 .header {
@@ -273,13 +274,15 @@ div {
     float: left;
     color: #f51e6a;
     font-size: 55px;
+    outline: none;
 }
 
 .logo img {
     width: 65%;
 }
 
-.header-fixed .logo img {
+.header-fixed .logo img,
+.home-header .logo img {
     width: 45%;
 }
 
@@ -478,9 +481,6 @@ div {
     background-color: #ffffff;
     width: 65%;
     float: left;
-    -webkit-box-shadow: 0px 2px 37px -3px rgba(222, 213, 222, 1);
-    -moz-box-shadow: 0px 2px 37px -3px rgba(222, 213, 222, 1);
-    box-shadow: 0px 2px 37px -3px rgba(222, 213, 222, 1);
     padding: 30px 30px 0px 65px;
     min-height: 480px;
     position: relative;
@@ -547,6 +547,7 @@ div {
 
 .brand-companies {
     margin-top: 40px;
+    padding: 0px 40px;
 }
 
 .brand-companies.owl-carousel .owl-nav .owl-next,
@@ -566,12 +567,12 @@ div {
 .brand-companies.owl-carousel .owl-nav .owl-prev {
     left: 0%;
     background-position: 0px -2px;
-    margin-left: -25px;
+    margin-left: 0px;
     top: 20px;
 }
 
 .brand-companies.owl-carousel .owl-nav .owl-next {
-    right: -1%;
+    right: 0% !important;
     background-position: -40px -11px;
     top: 20px;
     margin-left: 0px;
@@ -579,8 +580,12 @@ div {
 
 .client-caro.owl-carousel .owl-nav {
     position: absolute;
-    bottom: -15px;
     left: 45%;
+    bottom: 50px;
+}
+
+.client-caro.owl-carousel .owl-stage-outer {
+    padding-bottom: 40px;
 }
 
 .client-caro.owl-carousel .owl-nav .owl-next,
@@ -595,7 +600,7 @@ div {
 
 .client-caro.owl-carousel .owl-nav .owl-next {
     background-position: -40px -11px;
-    margin: 15px 0px 0px 40px;
+    margin: 10px 0px 0px 60px;
 }
 
 /*.brand-companies .owl-nav .owl-prev:hover {
@@ -904,6 +909,7 @@ div {
 
 .address-sec p a {
     color: #656060;
+    outline: none;
 }
 
 .address-sec p strong {
@@ -4491,14 +4497,14 @@ div {
     padding: 5px 20px;
 }
 
-#wowslider-container1 .ws-title h3 {
-    font-size: 80px;
-    line-height: 85px;
+#homeslider h3 {
+    font-size: 50px;
+    line-height: 57px;
     text-align: left;
     color: #313131;
 }
 
-#wowslider-container1 .ws-title span {
+#homeslider h3 span {
     font-size: 60px;
     display: block;
     text-transform: uppercase;
@@ -4506,23 +4512,10 @@ div {
     color: #eb4946;
 }
 
-#wowslider-container1 .ws-title p {
+#homeslider p {
     text-align: left !important;
     color: #202020;
     padding: 15px 0px;
     margin: 0px 0px;
     text-align: left;
-}
-
-#wowslider-container1 .ws-title [type="button"] {
-    padding: 20px 35px;
-    background-color: transparent;
-    font-family: Roboto Medium;
-    font-size: 18px;
-    margin-top: 50px;
-    border: 2px solid #fff;
-    color: #fff;
-    border-radius: 6px;
-    text-transform: uppercase;
-    float: none;
 }
