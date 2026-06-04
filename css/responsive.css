@@ -133,6 +133,23 @@
     .brand-companies .owl-nav .owl-next {
         right: -4%;
     }
+
+    #homeslider h3 span {
+        font-size: 40px;
+    }
+
+    #homeslider h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .section {
+        padding: 0px 0px;
+    }
+
+    .about-content {
+        margin-top: 25px;
+    }
 }
 
 /*Media max-width-991*/
@@ -277,7 +294,7 @@
     }
 
     .about-text {
-        padding: 0px 30px 0px 30px;
+        padding: 0px 0px 0px 0px;
     }
 
     .adr-blk {
@@ -365,6 +382,28 @@
     .shadow-text {
         font-size: 35px;
     }
+
+    #homeslider h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    #homeslider h3 span {
+        font-size: 19px;
+    }
+
+    #homeslider p {
+        display: none;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    .brand-companies.owl-carousel .owl-nav .owl-prev {
+        margin-left: -20px;
+        top: 13px;
+    }
 }
 
 /*Media max-width-568*/
@@ -451,14 +490,6 @@
         right: -2% !important;
     }
 
-    .section {
-        padding: 45px 0px;
-    }
-
-    #services {
-        padding: 55px 0px;
-    }
-
     .shadow-text {
         font-size: 25px;
     }
@@ -482,16 +513,29 @@
     .client-caro.owl-carousel .owl-nav {
         left: 40%;
     }
+
+    #homeslider h3 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #homeslider h3 span {
+        font-size: 25px;
+    }
+
+    #homeslider p {
+        display: none;
+    }
+
+    .about-content {
+        margin-top: 0px;
+    }
 }
 
 /*Media max-width-375*/
 @media screen and (max-width:375px) {
     .logo {
         width: 60%;
-    }
-
-    .about-content {
-        margin-top: 60px;
     }
 
     .shadow-text {
@@ -529,7 +573,7 @@
     }
 
     .logo img {
-        width: 70%;
+        width: 45%;
     }
 
     .cntact-left .shadow-text {
@@ -546,6 +590,7 @@
     .about-img img {
         max-height: 300px;
         width: 100%;
+        display: none;
     }
 }
 
