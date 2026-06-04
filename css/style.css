@@ -909,6 +909,7 @@ div {
 
 .address-sec p a {
     color: #656060;
+    outline: none;
 }
 
 .address-sec p strong {
