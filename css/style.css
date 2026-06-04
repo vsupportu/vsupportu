@@ -4491,14 +4491,14 @@ div {
     padding: 5px 20px;
 }
 
-#wowslider-container1 .ws-title h3 {
-    font-size: 80px;
-    line-height: 85px;
+#homeslider h3 {
+font-size: 50px;
+    line-height: 57px;
     text-align: left;
     color: #313131;
 }
 
-#wowslider-container1 .ws-title span {
+#homeslider h3 span {
     font-size: 60px;
     display: block;
     text-transform: uppercase;
@@ -4506,7 +4506,7 @@ div {
     color: #eb4946;
 }
 
-#wowslider-container1 .ws-title p {
+#homeslider p {
     text-align: left !important;
     color: #202020;
     padding: 15px 0px;
