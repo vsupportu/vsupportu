@@ -310,6 +310,7 @@
 
     .about-content {
         margin-top: 90px;
+        padding: 0px 5px 25px 0px;
     }
 
     .brand-list {
@@ -323,30 +324,6 @@
     #services .sub-text {
         width: 100%;
         padding: 0px 0px 30px;
-    }
-
-    #wowslider-container1 .ws_images {
-        height: 60vh !important;
-    }
-
-    #wowslider-container1 .ws-title {
-        padding: 20px !important;
-        margin-left: 0 !important;
-    }
-
-    #wowslider-container1 .ws-title p {
-        display: none !important;
-    }
-
-    #wowslider-container1 .ws-title h3,
-    #wowslider-container1 .ws-title span {
-        font-size: 25px !important;
-        line-height: 35px !important;
-    }
-
-    #wowslider-container1 .ws_bullets {
-        bottom: 120px;
-        right: 0px;
     }
 
     .header-fixed {

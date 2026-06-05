@@ -460,25 +460,39 @@ div {
 
 .about-content {
     margin-top: 0px;
+    padding: 60px 5px 25px 0px;
 }
 
 .about-img {
     float: left;
+    width: 40%;
+    position: relative;
+}
+
+.about-img:after {
+    content: '';
+    width: 90%;
+    height: 100%;
+    z-index: -9;
+    background-color: #f51e6a;
+    position: absolute;
+    top: -55px;
+    left: -40px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .about-text {
     background-color: #ffffff;
     width: 65%;
     float: left;
-    padding: 30px 30px 0px 65px;
-    min-height: 480px;
+    padding: 0px 0px 0px 65px;
     position: relative;
 }
 
 .about-text h2 {
     font-size: 35px;
     line-height: 45px;
-    margin: 20px 0px 25px;
+    margin: 0px 0px 25px;
 }
 
 .about-text h2 span {
@@ -496,6 +510,7 @@ div {
     right: -9px;
     bottom: -35px;
     font-weight: 600;
+    display: none;
 }
 
 .about-img img {
