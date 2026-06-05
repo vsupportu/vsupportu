@@ -460,7 +460,7 @@ div {
 
 .about-content {
     margin-top: 0px;
-    padding: 60px 5px 25px 0px;
+    padding: 60px 15px 25px 15px;
 }
 
 .about-img {
@@ -468,6 +468,7 @@ div {
     width: 40%;
     position: relative;
 }
+
 
 .about-img:after {
     content: '';
@@ -482,7 +483,7 @@ div {
 }
 
 .about-text {
-    background-color: #ffffff;
+
     width: 65%;
     float: left;
     padding: 0px 0px 0px 65px;
