@@ -20,20 +20,10 @@
         line-height: 50px !important;
     }
 
-    .cntact-left .shadow-text {
-        top: 6px;
-        left: 15%;
-        font-size: 80px;
-    }
 }
 
 /*Media max-width-1366*/
 @media screen and (max-width:1366px) {
-
-    .cntact-left .shadow-text {
-        left: 6%;
-        font-size: 75px;
-    }
 
     .adr-blk {
         margin-left: 170px;
@@ -66,11 +56,6 @@
         font-size: 60px;
         right: -2px;
         bottom: -5px;
-    }
-
-    .cntact-left .shadow-text {
-        font-size: 57px;
-        top: 35px;
     }
 }
 
@@ -114,7 +99,7 @@
     }
 
     .cntact-left .shadow-text {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .phone-img {
@@ -189,10 +174,12 @@
 
     .about-text,
     .client-sec {
-        width: 100%;
-        margin-top: 20px;
+        margin-top: 0px;
+        padding: 0px 0px 0px 20px;
     }
-
+#services .sub-text {
+    width: 100%;
+}
     .cntact-left .shadow-text {
         top: -50px;
     }
@@ -274,9 +261,11 @@
     #burgernav {
         display: block;
     }
-
+#burgernav:before, #burgernav:after,#burgernav span {background: #ffffff;}
+.header-fixed #burgernav:before,.header-fixed #burgernav:after,.header-fixed #burgernav span {background: #000;}
     .phone-img {
-        right: 10px;
+              right: 10px;
+        width: 35%;
     }
 
     .phone-img img {
@@ -285,7 +274,7 @@
 
     .cntact-left,
     .cntact-right {
-        width: 100%;
+        width: 100%;        margin-bottom: 0;
     }
 
     .about-text h2 span,
@@ -294,14 +283,17 @@
     }
 
     .about-text {
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;        width: 100%;
     }
 
     .adr-blk {
         margin-left: 0px;
-        padding-left: 35px;
+        padding-left: 15px;
         border-left: 0;
     }
+	.cntact-right {
+    margin-top: 10px;
+}
 
     .cntact-left .shadow-text {
         left: 4%;
@@ -309,16 +301,16 @@
     }
 
     .about-content {
-        margin-top: 90px;
-        padding: 0px 5px 25px 0px;
+        margin-top: 0;
+        padding: 5px 10px 25px 10px;
     }
 
     .brand-list {
-        margin: 40px 30px 0px;
+        margin: 40px 0px 0px;
     }
 
     #contact {
-        padding: 130px 0px 0px;
+        padding:15px 0px 0px;
     }
 
     #services .sub-text {
@@ -327,7 +319,7 @@
     }
 
     .header-fixed {
-        padding: 10px 0px;
+        padding: 0px 0px;
     }
 
     .address-sec {
@@ -378,9 +370,18 @@
     }
 
     .brand-companies.owl-carousel .owl-nav .owl-prev {
-        margin-left: -20px;
-        top: 13px;
+           margin-left: -2px;
+        top: 37px;
     }
+	.brand-companies.owl-carousel .owl-nav .owl-next {
+    top: 39px;
+}
+.about-img img,.about-img:after {
+        display: none;
+    }
+	#about {
+    padding: 0px 0px 0px;
+}
 }
 
 /*Media max-width-568*/
@@ -392,7 +393,7 @@
     }
 
     .client-sec {
-        width: 95%;
+        width: 100%;
     }
 
     .client-sec .sub-text {
@@ -439,22 +440,7 @@
         width: 45%;
     }
 
-    .cntact-right {
-        margin-top: 0px;
-    }
-
-    #wowslider-container1 .ws_images {
-        height: 40vh !important;
-    }
-
-    #wowslider-container1 img {
-        height: 100% !important;
-    }
-
-    #wowslider-container1 .ws_bullets {
-        bottom: 2px;
-    }
-
+ 
     #services .sub-text {
         font-size: 20px;
     }
@@ -470,25 +456,27 @@
     .shadow-text {
         font-size: 25px;
     }
-
-    .about-text h2 {
-        margin: 20px 0px 10px;
+.about-text h2 {
+	margin: 3px 0px 10px;
+    font-size: 25px;
+    line-height: 30px;
+}
+    .about-text h2 span {
+        font-size: 27px;
     }
-
-    #wowslider-container1 .ws-title {
-        width: 50% !important;
-    }
-
+	.ls-v5 .ls-bottom-slidebuttons, .ls-v5 .ls-nav-start, .ls-v5 .ls-nav-stop, .ls-v5 .ls-nav-sides {
+    top: -19px;
+}
     .about-content p {
         text-align: justify;
     }
 
     .grid-img {
-        margin-right: 0px;
+        padding: 10px;
     }
 
     .client-caro.owl-carousel .owl-nav {
-        left: 40%;
+        left:30%;
     }
 
     #homeslider h3 {
@@ -507,6 +495,21 @@
     .about-content {
         margin-top: 0px;
     }
+	.client-sec {
+        padding: 0px 0px 0px 0px;
+    }
+	    #client {
+        padding: 20px 0px;
+    }
+	    #contact {
+        padding: 45px 0px 0px;
+    }
+	    .brand-companies.owl-carousel .owl-nav .owl-prev {
+        margin-left: -18px;
+        top: 16px;
+    }
+	    .brand-companies.owl-carousel .owl-nav .owl-next {top: 10px;}
+
 }
 
 /*Media max-width-375*/
