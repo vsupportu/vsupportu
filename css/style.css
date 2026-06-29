@@ -861,8 +861,8 @@ div {
     margin-bottom: 25px;
 }
 
-.cntact-left .shadow-text {
-    top: 10px;
+#contact .shadow-text {
+    top: 40px;
     left: 4%;
     color: #f51e6a;
     bottom: auto;
@@ -896,7 +896,7 @@ div {
 }
 
 .adr-blk {
-    margin-left: 240px;
+    margin-left: 120px;
     border-left: 1px solid #fba9c669;
     padding-left: 50px;
 }
@@ -976,7 +976,7 @@ div {
 
 .cntact-right {
     width: 40%;
-    float: left;
+    float: right;
     margin-top: 55px;
 }
 
