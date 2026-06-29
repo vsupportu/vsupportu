@@ -509,7 +509,9 @@
         top: 16px;
     }
 	    .brand-companies.owl-carousel .owl-nav .owl-next {top: 10px;}
-
+.ls-v5 .ls-bottom-slidebuttons, .ls-v5 .ls-nav-start, .ls-v5 .ls-nav-stop, .ls-v5 .ls-nav-sides {
+    top: -18px !important;
+}
 }
 
 /*Media max-width-375*/
