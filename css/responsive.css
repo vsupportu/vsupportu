@@ -99,6 +99,7 @@ background: -ms-linear-gradient(top, rgba(245, 30, 106, 0.98) 0%, #f44336d1 100%
 .about-img img,.about-img:after {display: none;}
 #about {padding: 0px 0px 0px;}
 .address-sec .social-icon {margin-left: 20px;}
+.ls-v5 .ls-bottom-slidebuttons, .ls-v5 .ls-nav-start, .ls-v5 .ls-nav-stop, .ls-v5 .ls-nav-sides {top: -20px;}
 }
 /*Media max-width-568*/
 @media screen and (max-width:568px) {
