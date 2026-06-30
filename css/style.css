@@ -886,6 +886,7 @@ div {
     -webkit-transition: all 0.9s ease;
     */ -moz-transition: all 0.9s ease;
     -o-transition: all 0.9s ease;
+	 border-radius: 85px 15px 85px 15px;
 }
 
 .phone-img img:hover {
