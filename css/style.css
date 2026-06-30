@@ -225,6 +225,7 @@ div {
 
 .section {
     padding: 5px 0px;
+	overflow:hidden;
     scroll-margin-top: 80px;
 }
 
@@ -860,12 +861,14 @@ div {
     margin-bottom: 25px;
 }
 
-.cntact-left .shadow-text {
-    top: 10px;
-    left: 32%;
+#contact .shadow-text {
+    top: 40px;
+    left: 4%;
     color: #f51e6a;
     bottom: auto;
-    font-size: 90px;
+    font-size: 60px;
+    font-weight: 500;
+	display:block;
 
 }
 
@@ -883,6 +886,7 @@ div {
     -webkit-transition: all 0.9s ease;
     */ -moz-transition: all 0.9s ease;
     -o-transition: all 0.9s ease;
+	 border-radius: 85px 15px 85px 15px;
 }
 
 .phone-img img:hover {
@@ -893,7 +897,7 @@ div {
 }
 
 .adr-blk {
-    margin-left: 240px;
+    margin-left: 120px;
     border-left: 1px solid #fba9c669;
     padding-left: 50px;
 }
@@ -973,7 +977,7 @@ div {
 
 .cntact-right {
     width: 40%;
-    float: left;
+    float: right;
     margin-top: 55px;
 }
 
